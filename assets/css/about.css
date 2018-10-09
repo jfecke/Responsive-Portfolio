@@ -1,0 +1,98 @@
+.body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    border:0;
+}
+ 
+.main-about  {    
+    max-width: 960px;
+    min-height: 500px;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    margin: 182px auto 0 auto;
+    top: 80px;
+}
+ 
+.selfie{
+    height: 250px;
+    width: 250px;
+    float: left;
+    padding-right: 25px;
+    z-index: 3;
+     
+}
+ 
+.aboutme{
+    color: #4aaaa5;
+    font-size: 28px;
+    height: 50px;
+    padding-top: 30px;
+    border-bottom: 2px solid #cccccc;
+    max-width: 860px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+ 
+.body-main{
+    padding-left: 50px;
+    padding-top: 20px;
+    overflow: auto;
+}
+ 
+p {
+    padding: 25px;
+    padding-top: 0px;
+    color: #777777;
+
+}
+ 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url('../images/background.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+footer {
+    background: #666666;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    border-top: 7px solid #4aaaa5;
+    z-index: 999;
+}
+.copyright {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 960px) {
+    .body {
+        width: 90%;
+    }
+
+    .aboutme {
+        width: 90%; 
+    }
+
+    .selfie {
+        float:none;
+        display: block;
+        margin: 0 auto; 
+        padding-right: 0;
+    }
+
+    .body-main {
+        padding-left: 0;
+    }
+
+}
