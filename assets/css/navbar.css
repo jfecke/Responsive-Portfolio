@@ -1,5 +1,5 @@
 .header{
-    border-bottom: 1.5px solid #cccccc; 
+    border-bottom: 1.5px solid #0062B1; 
     height: 82px;
     width: 100%;
     background: #ffffff;
@@ -19,7 +19,7 @@
      float: left;
      height: 63px;
      width: 200px;
-     background: #003865;
+     background: #0062B1;
      color: white;
      position: fixed;
      top: 0;
@@ -38,7 +38,7 @@
      text-align: center;
      padding-top: 30px;
      font-size: 18px;
-     color: #999eba;
+     color: #003865;
      text-decoration: none;
  }
 
@@ -49,19 +49,19 @@
     width: 85px;
     z-index: 10000;
     display: none;
-    border: 1px solid #cccccc;
+    border: 1px solid #0062B1;
 }
 
 .dropdown-content a {
     float: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #999eba;
+    color: #003865;
     padding: 8px 16px;
     text-decoration: none;
     display: block;
     text-align: center;
     z-index: 1000;
-    border-top: 2px solid #cccccc;
+    border-top: 2px solid #0062B1;
     font-size: 16px;
 }
 
@@ -79,11 +79,11 @@
 }
 
 .dropdown-content a:hover{
-    background-color: #f1f1f1
+    background-color: #008DFE
 }
 
 .buttons:hover{
-    background-color: #f1f1f1
+    background-color: #008DFE
 }
 
 

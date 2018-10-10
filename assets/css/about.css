@@ -26,11 +26,11 @@
 }
  
 .aboutme{
-    color: #4aaaa5;
+    color: #0062B1;
     font-size: 28px;
     height: 50px;
     padding-top: 30px;
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 2px solid #26577E;
     max-width: 860px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,6 +47,8 @@ p {
     padding: 25px;
     padding-top: 0px;
     color: #777777;
+    font-size: 18px;
+    margin-top: 0px;
 
 }
  
@@ -65,7 +67,7 @@ footer {
     height: 60px;
     position: fixed;
     bottom: 0;
-    border-top: 7px solid #4aaaa5;
+    border-top: 7px solid #0062B1;
     z-index: 999;
 }
 .copyright {
@@ -87,7 +89,7 @@ footer {
     .selfie {
         float:none;
         display: block;
-        margin: 0 auto; 
+        margin: 0 auto 20px auto; 
         padding-right: 0;
     }
 
