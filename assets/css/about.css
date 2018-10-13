@@ -98,3 +98,9 @@ footer {
     }
 
 }
+
+@media screen and (max-width: 640px) {
+    .main-about {
+        margin: 75px auto 0 auto;
+    }
+}

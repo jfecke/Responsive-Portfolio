@@ -107,7 +107,8 @@
     }
 
     .header {
-        height: 150px;
+        height: 65px;
+        position: static;
     }
 
     .toolbar {
