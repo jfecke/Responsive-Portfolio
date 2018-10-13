@@ -104,6 +104,7 @@
         float: none;
         margin: 0;
         display: block;
+        position: absolute;
     }
 
     .header {
@@ -132,5 +133,6 @@
     .dropdown-content {
         margin-top: 21px;
     }
+
 
 }
