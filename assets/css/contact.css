@@ -75,6 +75,10 @@
  
  #message{
      height: 200px;
+     resize: vertical;
+     word-wrap: normal;
+     width:94%;
+
  }
  
  .submit {
