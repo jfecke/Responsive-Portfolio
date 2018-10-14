@@ -38,14 +38,12 @@
 }
  
 .body-main{
-    padding-left: 50px;
-    padding-top: 20px;
+    padding: 20px 50px;
     overflow: auto;
 }
  
 p {
-    padding: 25px;
-    padding-top: 0px;
+    padding: 0px;
     color: #777777;
     font-size: 18px;
     margin-top: 0px;
